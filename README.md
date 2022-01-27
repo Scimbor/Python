@@ -4,7 +4,7 @@
 
 There will be more in the future :)
 
-### # Simple weather fetcherSimple weather fetcher
+### # Simple weather fetcher
 
 Application get data from *https://openweathermap.org/*.
 
