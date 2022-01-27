@@ -1,0 +1,12 @@
+version: '3.9'
+
+services:
+  web:
+    image: flask:dev7.0
+    environment:
+      FLASK_DEBUG: 1
+      FLASK_APP: ./app.py
+    volumes:
+      - ./:/usr/src/app/
+    ports:
+      - 5000:5000
